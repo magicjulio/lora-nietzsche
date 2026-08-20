@@ -1,0 +1,3 @@
+downloaded from project gutenberg.
+removed gutenberg header and footer with script.
+removed some notes manually

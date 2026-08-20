@@ -1,0 +1,23 @@
+# Local CPU-training attempt: 1.4 GB of wheels, never commit
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Hugging Face / torch caches
+.cache/
+hf_cache/
+
+# Training scratch: checkpoints and logs written next to the adapter
+runpod/out/
+runpod/**/checkpoint-*/
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.swp
